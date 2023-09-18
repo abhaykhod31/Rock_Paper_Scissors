@@ -14,7 +14,7 @@ computerChoice = random.choice("123")
 computer = int(computerChoice) 
 
 print("\nYou chose " + str(player) + ".")
-print("Computer chose " + str(computer) + ".\n")
+print("Computer chose " + str(computer) + ".\n")    
 
 if player == 1 and computer == 3:
     print("✨ You Win !!✨\n")
